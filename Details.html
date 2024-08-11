@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color: teal;">Enter below details to buy it</h1>
+    <form action="./Response.html">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Enter your name" maxlength="20" required><br><br>
+
+        <label for="mobileno">Mobile number:</label>
+        <input type="text" name="mobileno" placeholder="Enter your Mobile number" pattern="+91 [6-9]\d{9}" required><br><br>
+
+        <label for="AA">Address:</label>
+        <textarea name="AA" required pattern="[a-zA-Z\d\s :\.\-]"></textarea required><br><br>
+
+        <label>Amount:</label>
+        <select><option>Select</option><option>Cash on Delivery</option><option>Online Payment</option></select><br><br>
+
+        <input type="submit" style="background-color:lightcoral">
+    </form>
+</body>
+</html>
